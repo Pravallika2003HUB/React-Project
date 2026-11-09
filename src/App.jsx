@@ -21,12 +21,12 @@ function App() {
   ]);
   let [count, setCount] = useState(0);
   let [val,setVal] = useState(0)
-  // useEffect(()=>{
-  //   console.log("api running")
-  // })
-  // useEffect(()=>{
-  //   console.log("api logic")
-  // },[])
+   useEffect(()=>{
+     console.log("api running")
+   })
+   useEffect(()=>{
+    console.log("api logic")
+   },[])
   useEffect(()=>{
     console.log("api logic")
   },[val])
